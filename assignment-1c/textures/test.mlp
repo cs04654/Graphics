@@ -1,0 +1,17 @@
+<!DOCTYPE MeshLabDocument>
+<MeshLabProject>
+ <MeshGroup>
+  <MLMesh filename="test.ply" idInFile="-1" visible="1" label="Grid Generator">
+   <MLMatrix44>
+1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" boxColor="100 234 85 255" wireWidth="1" wireColor="17 14 64 255" solidColor="35 90 192 255" pointColor="252 233 79 255">100001000000000000000100000001011000010010100000000100111011110000001001</RenderingOption>
+  </MLMesh>
+ </MeshGroup>
+ <RasterGroup>
+  <MLRaster label="/home/v4ngbz/Documents/uni/myy702/assignment-1c/textures/ground1.jpg">
+   <VCGCamera BinaryData="0" CenterPx="157 157" LensDistortion="0 0" ViewportPx="315 315" PixelSizeMm="0 0" FocalMm="0" RotationMatrix="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 " CameraType="0" TranslationVector="0 0 0 1"/>
+   <Plane fileName="ground1.jpg" semantic="1"/>
+  </MLRaster>
+ </RasterGroup>
+</MeshLabProject>
